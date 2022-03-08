@@ -2,14 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <script src="./js/main.js" defer></script>
-    <title>Document</title>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
   </head>
   <body>
-    Hello, world!
+    <main class="wrapper">
+      <div class="card">
+        <img
+          class="card-img"
+          src="./images/illustration-hero.svg"
+          alt="Woman listening to music"
+        />
+        <div class="card-content">
+          <h1 class="card-title">Order Summary</h1>
+
+          <p class="card-desc">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+
+          <div class="card-plan">
+            <div class="card-plan-content">
+              <img src="./images/icon-music.svg" alt="music icon" />
+              <div>
+                <h2>Annual Plan</h2>
+                <p>$59.99/year</p>
+              </div>
+            </div>
+            <a class="card-plan-link" href="#top">Change</a>
+          </div>
+          <button class="card-button">Proceed to Payment</button>
+          <a class="cancel-link" href="#top">Cancel Order</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/nikea1">Adenike Adeyemi</a>.
+      </div>
+    </footer>
   </body>
 </html>
