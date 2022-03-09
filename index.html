@@ -19,7 +19,8 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -32,43 +33,48 @@
     </style>
   </head>
   <body>
-    <main class="wrapper">
-      <div class="card">
-        <img
-          class="card-img"
-          src="./images/illustration-hero.svg"
-          alt="Woman listening to music"
-        />
-        <div class="card-content">
-          <h1 class="card-title">Order Summary</h1>
+    <div class="card">
+      <main class="wrapper">
+        <div class="card">
+          <img
+            class="card-img"
+            src="./images/illustration-hero.svg"
+            alt="Woman listening to music"
+          />
+          <section> 
+            <div class="card-content">
+            <h1 class="card-title">Order Summary</h1>
 
-          <p class="card-desc">
-            You can now listen to millions of songs, audiobooks, and podcasts on
-            any device anywhere you like!
-          </p>
+            <p class="card-desc">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
 
-          <div class="card-plan">
-            <div class="card-plan-content">
-              <img src="./images/icon-music.svg" alt="music icon" />
-              <div>
-                <h2>Annual Plan</h2>
-                <p>$59.99/year</p>
+            <div class="card-plan">
+              <div class="card-plan-content">
+                <img src="./images/icon-music.svg" alt="music icon" />
+                <div>
+                  <h2>Annual Plan</h2>
+                  <p>$59.99/year</p>
+                </div>
               </div>
+              <a class="card-plan-link" href="#top">Change</a>
             </div>
-            <a class="card-plan-link" href="#top">Change</a>
+            <button class="card-button">Proceed to Payment</button>
+            <a class="cancel-link" href="#top">Cancel Order</a>
           </div>
-          <button class="card-button">Proceed to Payment</button>
-          <a class="cancel-link" href="#top">Cancel Order</a>
+    
+   
+      </main>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/nikea1">Adenike Adeyemi</a>.</section>
+          
         </div>
-      </div>
-    </main>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/nikea1">Adenike Adeyemi</a>.
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>

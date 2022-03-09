@@ -10,3 +10,8 @@ video {
   height: 150px;
   width: 350px;
 }
+
+img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
