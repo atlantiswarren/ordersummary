@@ -7,7 +7,7 @@ video {
 }
 .card {
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
   box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
   background-color: white;
   border-radius: 1rem;
@@ -23,7 +23,7 @@ img {
   border-top-right-radius: 1rem;
 }
 .card-title {
-  padding: 1rem;
+  padding: 1.2rem 0;
   font-family: "Red Hat Display";
 }
 .attribution {
@@ -43,11 +43,13 @@ img {
   text-align: left;
   border-radius: 1rem;
   padding: 1rem;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem 2.4rem 1rem 2.4rem;
 }
 .plan-title {
   width: 100%;
-  font-weight: bolder;
+}
+p {
+  color: gray;
 }
 .card-button {
   background-color: hsl(245, 75%, 52%);
@@ -57,11 +59,18 @@ img {
   padding: 1rem 6rem 1rem 6rem;
 }
 .card-button:hover {
-  opacity: 60%;
+  opacity: 70%;
 }
 .cancel {
   border: none;
   border-radius: 1rem;
   padding: 1rem 6rem 1rem 6rem;
   background-color: white;
+}
+.text-left {
+  font-family: "Red Hat Display";
+  font-size: small;
+}
+.card-plan-link:hover {
+  opacity: 80%;
 }
